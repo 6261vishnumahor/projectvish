@@ -247,7 +247,7 @@
 }
 
 #tow {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .tow1 {
@@ -341,17 +341,18 @@
     border-radius: 10px;
 }
 
- .f1 {
-   
+.f1 {
+
     width: 300px;
     /* height: 300px; */
     text-align: center;
     color: white;
-   
+
 }
-.f3{
+
+.f3 {
     background-color: rgb(61, 103, 103);
-    padding: 110px 0px 200px 0px ;
+    padding: 110px 0px 200px 0px;
     border-radius: 10px;
 }
 
@@ -360,7 +361,7 @@
     margin: 60px 0px 0px 0px;
 }
 
-.tow4 .f2 {
+.f2 {
     background-color: rgb(168, 54, 54);
     /* width: 90px; */
     text-align: center;
@@ -369,8 +370,121 @@
     font-size: 20px;
     border-radius: 10px;
 }
-.tow4{
+
+.tow4 {
     display: flex;
     justify-content: space-evenly;
+}
 
+.tow4 .iphone {
+    width: 300px;
+    height: 450px;
+}
+
+.add {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 700px;
+    padding: 10px;
+    margin: 0px 0px 0px 600px;
+    border-radius: 20px;
+}
+
+.add i {
+    padding-right: 10px;
+}
+
+.moc1 img {
+    border-radius: 50%;
+    width: 30px;
+    margin: 0px 20px 40px 0px;
+
+}
+
+.moc b {
+    font-size: 22px;
+}
+
+.moc div img {
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.moc {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.moc div img:hover {
+    scale: 0.8;
+}
+
+.moc1 a {
+    margin: 0px 0px 40px 0px;
+}
+
+.moc1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.joe {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 40px 0px;
+
+}
+
+.joe1 {
+    display: flex;
+}
+
+.joe1 article img {
+    border-radius: 50%;
+}
+
+.joe b {
+    font-size: 22px;
+}
+
+.joe2 {
+    display: flex;
+}
+
+.joe2 article img {
+    border-radius: 50%;
+}
+
+.joe i {
+    color: rgb(218, 97, 97);
+}
+
+.vis {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 10px 0px;
+    
+}
+.vis img{
+    border-radius: 10px;
+}
+.log{
+  
+    display: flex;
+    justify-content: space-evenly;
+}
+.log1{
+    display: flex;
+    background-color: blue;
+    width: 500px;
+    padding: 40px;
+}
+.log2{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-evenly;
+    width: 500px;
 }
