@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -124,6 +128,7 @@
     justify-content: space-evenly;
     padding: 50px;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 #sav {
@@ -152,6 +157,7 @@
     justify-content: space-evenly;
     border-bottom: 1px solid rgb(148, 132, 132);
     padding: 40px 0px 40px 0px;
+    overflow-x: hidden;
 }
 
 .free i {
@@ -169,6 +175,7 @@
     justify-content: space-evenly;
     margin: 30px;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .pop div b {
@@ -199,10 +206,10 @@
     width: 300px;
     text-align: center;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 .cable img {
-
     mix-blend-mode: color-burn;
 }
 
@@ -215,6 +222,7 @@
     width: 300px;
     text-align: center;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 .Jbl img {
@@ -227,6 +235,7 @@
     width: 300px;
     text-align: center;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 .watch img {
@@ -239,6 +248,7 @@
     width: 300px;
     text-align: center;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 .iphone img {
@@ -254,6 +264,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 30px;
+    overflow-x: hidden;
 }
 
 .tow1 img:hover {
@@ -291,11 +302,12 @@
     display: flex;
     padding: 50px 0px 0px 40px;
     color: white;
-
+    overflow-x: hidden;
 }
 
 .n1 {
     font-size: 38px;
+    overflow-x: hidden;
 }
 
 #n3 {
@@ -305,6 +317,7 @@
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    overflow-x: hidden;
 }
 
 .img3:hover {
@@ -320,18 +333,20 @@
 #w4 {
     position: absolute;
     z-index: -1;
+    overflow-x: hidden;
 }
 
 .img3 {
     width: 140px;
     padding: 0px 0px 0px 50px;
+    overflow-x: hidden;
 }
 
 .tow3 {
     display: flex;
     justify-content: space-evenly;
     padding: 40px;
-
+    overflow-x: hidden;
 }
 
 .few {
@@ -339,6 +354,7 @@
     justify-content: space-evenly;
     padding: 30px;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 .f1 {
@@ -347,18 +363,20 @@
     /* height: 300px; */
     text-align: center;
     color: white;
-
+    overflow-x: hidden;
 }
 
 .f3 {
     background-color: rgb(61, 103, 103);
     padding: 110px 0px 200px 0px;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 .f1 b {
     font-size: 32px;
     margin: 60px 0px 0px 0px;
+    overflow-x: hidden;
 }
 
 .f2 {
@@ -369,11 +387,13 @@
     padding: 15px;
     font-size: 20px;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 .tow4 {
     display: flex;
     justify-content: space-evenly;
+    overflow-x: hidden;
 }
 
 .tow4 .iphone {
@@ -389,10 +409,19 @@
     padding: 10px;
     margin: 0px 0px 0px 600px;
     border-radius: 20px;
+    overflow-x: hidden;
 }
 
 .add i {
     padding-right: 10px;
+}
+@media (max-width:1028px) {
+    .add {
+        margin: 0px 0px 0px 250px;
+    }
+    .tow3{
+        margin-right: 10px;
+    }
 }
 
 .moc1 img {
@@ -416,6 +445,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 10px;
+    overflow-x: hidden;
 }
 
 .moc div img:hover {
@@ -429,17 +459,19 @@
 .moc1 {
     display: flex;
     margin-top: 20px;
+    overflow-x: hidden;
 }
 
 .joe {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0px 40px 0px;
-
+    overflow-x: hidden;
 }
 
 .joe1 {
     display: flex;
+    overflow-x: hidden;
 }
 
 .joe1 article img {
@@ -452,6 +484,7 @@
 
 .joe2 {
     display: flex;
+    overflow-x: hidden;
 }
 
 .joe2 article img {
@@ -466,7 +499,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0px 10px 0px;
-    
+    overflow-x: hidden;
 }
 .vis img{
     border-radius: 10px;
@@ -475,16 +508,47 @@
   
     display: flex;
     justify-content: space-evenly;
+   padding-top: 50px;
+   overflow-x: hidden;
 }
 .log1{
     display: flex;
     background-color: blue;
-    width: 500px;
+    width: 600px;
     padding: 40px;
+    border-radius: 20px;
+    overflow-x: hidden;
 }
 .log2{
     display: flex;
     border: 1px solid;
     justify-content: space-evenly;
-    width: 500px;
+    width: 600px;
+   align-items: center;
+   font-size: 22px;
+   border-radius: 20px;
+   overflow-x: hidden;
+}
+.cv1{
+    padding-left: 30px;
+    width: 60px;
+    overflow-x: hidden;
+}
+.log1 div b{
+font-size: 24px;
+} 
+.log1 div {
+    padding: 30px 0px 0px 20px;
+}
+.addd{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    overflow-x: hidden;
+}
+.addd article div{
+    padding: 10px;
+}
+#r{
+  font-size: 22px;  
 }
