@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -79,6 +83,7 @@
     border-radius: 10px;
 
 }
+
 .sa {
     display: flex;
     margin-left: 20px;
@@ -87,6 +92,17 @@
 
 .sa div {
     padding-left: 30px;
+}
+
+@media (max-width:1024px) {
+    .nav1 {
+        display: block;
+    }
+
+    .nav1 .sa i {
+        margin-left: 100px;
+        align-items: center;
+    }
 }
 
 .search input {
@@ -111,73 +127,23 @@
     font-size: 18px;
     overflow: hidden;
 }
-.wa{
-    background-color: rgb(239, 243, 246);
-    text-align: center;
-    padding: 70px;
-}
-#wa1{
-    font-size: 28px;
-    font-weight: 600;
-}
-.wa2{
-    font-size: 30px;
-    /* padding-bottom: 400px; */
-}
-.wa3 i{
-font-size: 88px;
-}
-.wa3{
-    text-align: center;
-    padding: 200px;
-}
-.go{
-    background-color: rgb(57, 19, 19);
-    color: white;
-    padding: 20px;
-    width: 130px;
-    margin-left: 460px;
-    border-radius: 20px;
+.lll{
+    background-color: rgb(183, 205, 224);
+    padding: 90px;
+  text-align: center;
+  font-size: 40px;
 }
 .log{
     display: flex;
     justify-content: space-evenly;
-   padding-top: 50px;
 }
-.log1{
-    display: flex;
-    background-color: blue;
-    width: 600px;
-    padding: 40px;
-    border-radius: 20px;
+.ra{
+    font-size: 23px;
 }
-.log2{
-    display: flex;
-    border: 1px solid;
-    justify-content: space-evenly;
-    width: 600px;
-   align-items: center;
-   font-size: 22px;
-   border-radius: 20px;
+.log input{
+    width: 500px;
+    padding: 20px;
 }
-.cv1{
-    padding-left: 30px;
-    width: 60px;
-}
-.log1 div b{
-font-size: 24px;
-} 
-.log1 div {
-    padding: 30px 0px 0px 20px;
-}
-.addd{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 80px;
-}
-.addd article div{
-    padding: 10px;
-}
-#r{
-  font-size: 22px;  
+#das{
+    padding: 0px 50px 0px 0px;
 }

@@ -8,6 +8,9 @@ body{
     border-bottom: 1px solid rgb(201, 177, 177);
     padding-bottom: 10px;
     overflow-x: hidden;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 .usd {
@@ -70,6 +73,9 @@ body{
     padding-top: 40px;
     text-align: center;
     overflow-x: hidden;
+    position: sticky;
+    top: 30px;
+    background-color: white;
 }
 
 .img1 {
@@ -93,6 +99,22 @@ body{
 .sa div {
     padding-left: 30px;
 }
+@media (max-width:1024px) {
+    .nav1{
+        display: block;
+    }
+    .sa div{
+       margin-left: 100px;
+    }
+}
+@media (max-width:426px) {
+    .nav1{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0px 50px 0px 0px;
+
+    }
+}
 
 .search input {
     padding: 15px 350px 15px 20px;
@@ -107,6 +129,11 @@ body{
 .sa div a {
     text-decoration: none;
 }
+.nav3{
+    position: sticky;
+    top: 120px;
+    background-color: white;
+}
 
 .nav3 b {
     display: flex;
@@ -116,6 +143,67 @@ body{
     font-size: 18px;
     overflow: hidden;
 }
+.ds1 {
+    display: none;
+    background-color: rgb(193, 86, 86);
+    padding: 20px;
+    border-radius: 10px;
+}
+.img7 {
+    width: 100px;
+}
+#bars {
+    display: none;
+    font-size: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* padding: 5px; */
+    position: absolute;
+    right: 20px;
+    top: 290px;
+    color: white;
+}
+/* @media (max-width:1024px) {
+    .nav3 {
+        display: none;
+    } */
+    @media (max-width:1025px) {
+  
+
+        .nav3 {
+            display: none;
+        }
+    
+        .ds1 {
+            display: block;
+        }
+    
+        #bars {
+            display: block;
+        }
+    
+        #inp:checked~.nav3 {
+            display: block;
+            width: 400px;
+            height: 50vh;
+        }
+    
+      
+        #inp:checked~.nav3 b {
+            display: block;
+            
+        }
+        #inp:checked~.nav3  article {
+            padding: 20px;
+                  }
+    
+        #inp:checked~.nav3 {
+            display: none;
+        }
+    
+       
+    }
+
 
 #deals {
     font-size: 60px;
@@ -189,6 +277,19 @@ body{
 .d1 i {
     color: rgb(145, 116, 81);
     padding: 10px;
+}
+@media (max-width:1024px) {
+    .pop {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+}
+@media (max-width:426px) {
+    .pop{
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
 
 /* .d1 I2{
@@ -269,6 +370,21 @@ body{
 
 .tow1 img:hover {
     scale: 0.8;
+}
+@media (max-width:1024px) {
+    .tow1{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    .tow1 article{
+        margin-top: 10px;
+    }
+}
+@media (max-width:426px) {
+    .tow1{
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
 
 #g {
@@ -389,6 +505,53 @@ body{
     border-radius: 10px;
     overflow-x: hidden;
 }
+@media (max-width:1024px) {
+    
+    .tow3{
+        display: block;
+        margin-left: 150px;   
+        justify-content: space-between;
+     }
+     .tow3 div {
+        padding: 10px;
+     }
+     .few{
+        display: grid;
+        grid-template-columns: auto auto;
+     }
+     .few article{
+        margin-top: 10px;
+     }
+    }
+     @media (max-width:427px) {
+        .tow3{
+            margin: 10px 100px 40px 0px;
+            /* padding: 0px 20px px 0px; */
+        }
+        .n2{
+            display: block;
+        }
+        #w3 img{
+            width: 300px;
+            height: 400px;
+        }
+        #w4 img{
+            width: 300px;
+            height: 400px;
+        }
+        .tow3 .g1{
+            margin-bottom: 50px;
+        }
+        .img2{
+            padding: 0px 0px 0px 120px;
+        }
+        .few{
+            display: grid;
+            grid-template-columns: auto;
+        }
+    }
+
+
 
 .tow4 {
     display: flex;
@@ -420,7 +583,33 @@ body{
         margin: 0px 0px 0px 250px;
     }
     .tow3{
-        margin-right: 10px;
+        margin: 0px 50px 0px 0px;
+    }
+    .tow4{
+        display: grid;
+        grid-template-columns: auto auto;
+     }
+}
+@media (max-width:769px) {
+    .add{
+        margin: 0px 0px 3px 190px;
+        width: 400px;
+    }
+}
+
+@media (max-width:427px) {
+    .add{
+        margin: 0px 0px 0px 0px ;
+    }
+    .tow4{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media (max-width:375px) {
+    .add{
+        width:300px;
+        padding: 0px;
     }
 }
 
@@ -462,6 +651,19 @@ body{
     overflow-x: hidden;
 }
 
+@media (max-width:1028px){
+    .moc{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width:426px) {
+    .moc{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
 .joe {
     display: flex;
     justify-content: space-evenly;
@@ -494,6 +696,12 @@ body{
 .joe i {
     color: rgb(218, 97, 97);
 }
+@media (max-width:426px) {
+    .joe{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
 
 .vis {
     display: flex;
@@ -518,6 +726,30 @@ body{
     padding: 40px;
     border-radius: 20px;
     overflow-x: hidden;
+}
+@media (max-width:1028px){
+    .vis{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width:769px) {
+    .log{
+        display: block;
+    }
+}
+@media (max-width:426px) {
+    .vis{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .log1 {
+        display: block;
+        background-color: blue;
+        width: 200px;
+        height: 300px;
+    }
+
 }
 .log2{
     display: flex;
@@ -551,4 +783,25 @@ font-size: 24px;
 }
 #r{
   font-size: 22px;  
+}
+@media (max-width:769px) {
+    .log{
+        display: block;
+    }
+    .log2{
+        padding: 40px;
+        width: 600px;
+        margin-top: 20px;
+    }
+}
+@media (max-width:427px) {
+    .log2{
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+    .addd{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
