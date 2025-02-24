@@ -1,4 +1,4 @@
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -99,21 +99,42 @@ body{
 .sa div {
     padding-left: 30px;
 }
+
 @media (max-width:1024px) {
-    .nav1{
+    .nav1 {
         display: block;
     }
-    .sa div{
-       margin-left: 100px;
+    .hd{
+        display: none;
     }
-}
-@media (max-width:426px) {
-    .nav1{
-        display: grid;
-        grid-template-columns: auto;
-        padding: 0px 50px 0px 0px;
+
+    .sa div {
+        margin-left: 100px;
 
     }
+}
+
+@media (max-width:426px) {
+    .nav1 {
+        display: grid;
+        grid-template-columns: auto ;
+       justify-content: center;
+       
+    }
+
+    .img1 {
+        width: 70px;
+    }
+
+    /* .nav {
+        display: none;
+    } */
+    .sa{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+   
 }
 
 .search input {
@@ -129,7 +150,8 @@ body{
 .sa div a {
     text-decoration: none;
 }
-.nav3{
+
+.nav3 {
     position: sticky;
     top: 120px;
     background-color: white;
@@ -143,15 +165,18 @@ body{
     font-size: 18px;
     overflow: hidden;
 }
+
 .ds1 {
     display: none;
     background-color: rgb(193, 86, 86);
     padding: 20px;
     border-radius: 10px;
 }
+
 .img7 {
     width: 100px;
 }
+
 #bars {
     display: none;
     font-size: 50px;
@@ -163,46 +188,55 @@ body{
     top: 290px;
     color: white;
 }
+
 /* @media (max-width:1024px) {
     .nav3 {
         display: none;
     } */
-    @media (max-width:1025px) {
-  
+@media (max-width:1025px) {
 
-        .nav3 {
-            display: none;
-        }
-    
-        .ds1 {
-            display: block;
-        }
-    
-        #bars {
-            display: block;
-        }
-    
-        #inp:checked~.nav3 {
-            display: block;
-            width: 400px;
-            height: 50vh;
-        }
-    
-      
-        #inp:checked~.nav3 b {
-            display: block;
-            
-        }
-        #inp:checked~.nav3  article {
-            padding: 20px;
-                  }
-    
-        #inp:checked~.nav3 {
-            display: none;
-        }
-    
-       
+
+    .nav3 {
+        display: none;
     }
+
+
+    .ds1 {
+        display: block;
+    }
+
+    #bars {
+        display: block;
+       top: 250px;
+    }
+
+    #inp:checked~.nav3 {
+        display: block;
+        width: 400px;
+        height: 50vh;
+    }
+
+
+    #inp:checked~.nav3 b {
+        display: block;
+
+    }
+
+    #inp:checked~.nav3 article {
+        padding: 20px;
+    }
+
+    /* #inp:checked~.nav3 {
+        display: none;
+    } */
+
+
+}
+@media (max-width:769px) {
+    #bars{
+        top:270px ;
+    }
+}
 
 
 #deals {
@@ -278,6 +312,7 @@ body{
     color: rgb(145, 116, 81);
     padding: 10px;
 }
+
 @media (max-width:1024px) {
     .pop {
         display: grid;
@@ -285,10 +320,20 @@ body{
     }
 
 }
+
 @media (max-width:426px) {
-    .pop{
+    .pop {
         display: grid;
         grid-template-columns: auto;
+    }
+    .search input {
+        padding: 10px 100px 5px 10px;
+        border-radius: 20px;
+       
+
+    }
+    #bars{
+        top:330px ;
     }
 }
 
@@ -371,17 +416,20 @@ body{
 .tow1 img:hover {
     scale: 0.8;
 }
+
 @media (max-width:1024px) {
-    .tow1{
+    .tow1 {
         display: grid;
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto;
     }
-    .tow1 article{
+
+    .tow1 article {
         margin-top: 10px;
     }
 }
+
 @media (max-width:426px) {
-    .tow1{
+    .tow1 {
         display: grid;
         grid-template-columns: auto;
     }
@@ -505,51 +553,62 @@ body{
     border-radius: 10px;
     overflow-x: hidden;
 }
+
 @media (max-width:1024px) {
-    
-    .tow3{
+
+    .tow3 {
         display: block;
-        margin-left: 150px;   
+        margin-left: 150px;
         justify-content: space-between;
-     }
-     .tow3 div {
+    }
+
+    .tow3 div {
         padding: 10px;
-     }
-     .few{
+    }
+
+    .few {
         display: grid;
         grid-template-columns: auto auto;
-     }
-     .few article{
+    }
+
+    .few article {
         margin-top: 10px;
-     }
     }
-     @media (max-width:427px) {
-        .tow3{
-            margin: 10px 100px 40px 0px;
-            /* padding: 0px 20px px 0px; */
-        }
-        .n2{
-            display: block;
-        }
-        #w3 img{
-            width: 300px;
-            height: 400px;
-        }
-        #w4 img{
-            width: 300px;
-            height: 400px;
-        }
-        .tow3 .g1{
-            margin-bottom: 50px;
-        }
-        .img2{
-            padding: 0px 0px 0px 120px;
-        }
-        .few{
-            display: grid;
-            grid-template-columns: auto;
-        }
+}
+
+@media (max-width:427px) {
+    .tow3 {
+        margin: 10px 100px 40px 0px;
+        /* padding: 0px 20px px 0px; */
     }
+
+    .n2 {
+        display: block;
+    }
+
+    #w3 img {
+        width: 300px;
+        height: 400px;
+    }
+
+    #w4 img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .tow3 .g1 {
+        margin-bottom: 50px;
+    }
+
+    .img2 {
+        padding: 0px 0px 0px 120px;
+    }
+
+    .few {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
 
 
 
@@ -578,38 +637,45 @@ body{
 .add i {
     padding-right: 10px;
 }
+
 @media (max-width:1028px) {
     .add {
         margin: 0px 0px 0px 250px;
     }
-    .tow3{
+
+    .tow3 {
         margin: 0px 50px 0px 0px;
     }
-    .tow4{
+
+    .tow4 {
         display: grid;
         grid-template-columns: auto auto;
-     }
+    }
 }
+
 @media (max-width:769px) {
-    .add{
+    .add {
         margin: 0px 0px 3px 190px;
         width: 400px;
     }
 }
 
 @media (max-width:427px) {
-    .add{
-        margin: 0px 0px 0px 0px ;
+    .add {
+        margin: 0px 0px 0px 0px;
+        width: 300px;
     }
-    .tow4{
+
+    .tow4 {
         display: grid;
         grid-template-columns: auto;
     }
 }
-@media (max-width:375px) {
-    .add{
-        width:300px;
-        padding: 0px;
+
+@media (max-width:377px) {
+    .add {
+        width: 300px;
+        margin: 0px 40px 0px 0px;
     }
 }
 
@@ -651,14 +717,15 @@ body{
     overflow-x: hidden;
 }
 
-@media (max-width:1028px){
-    .moc{
+@media (max-width:1028px) {
+    .moc {
         display: grid;
         grid-template-columns: auto auto;
     }
 }
+
 @media (max-width:426px) {
-    .moc{
+    .moc {
         display: grid;
         grid-template-columns: auto;
     }
@@ -696,8 +763,9 @@ body{
 .joe i {
     color: rgb(218, 97, 97);
 }
+
 @media (max-width:426px) {
-    .joe{
+    .joe {
         display: grid;
         grid-template-columns: auto;
     }
@@ -709,17 +777,20 @@ body{
     padding: 20px 0px 10px 0px;
     overflow-x: hidden;
 }
-.vis img{
+
+.vis img {
     border-radius: 10px;
 }
-.log{
-  
+
+.log {
+
     display: flex;
     justify-content: space-evenly;
-   padding-top: 50px;
-   overflow-x: hidden;
+    padding-top: 50px;
+    overflow-x: hidden;
 }
-.log1{
+
+.log1 {
     display: flex;
     background-color: blue;
     width: 600px;
@@ -727,22 +798,26 @@ body{
     border-radius: 20px;
     overflow-x: hidden;
 }
-@media (max-width:1028px){
-    .vis{
+
+@media (max-width:1028px) {
+    .vis {
         display: grid;
         grid-template-columns: auto auto;
     }
 }
+
 @media (max-width:769px) {
-    .log{
+    .log {
         display: block;
     }
 }
+
 @media (max-width:426px) {
-    .vis{
+    .vis {
         display: grid;
         grid-template-columns: auto;
     }
+
     .log1 {
         display: block;
         background-color: blue;
@@ -751,56 +826,67 @@ body{
     }
 
 }
-.log2{
+
+.log2 {
     display: flex;
     border: 1px solid;
     justify-content: space-evenly;
     width: 600px;
-   align-items: center;
-   font-size: 22px;
-   border-radius: 20px;
-   overflow-x: hidden;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 20px;
+    overflow-x: hidden;
 }
-.cv1{
+
+.cv1 {
     padding-left: 30px;
     width: 60px;
     overflow-x: hidden;
 }
-.log1 div b{
-font-size: 24px;
-} 
+
+.log1 div b {
+    font-size: 24px;
+}
+
 .log1 div {
     padding: 30px 0px 0px 20px;
 }
-.addd{
+
+.addd {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
     overflow-x: hidden;
 }
-.addd article div{
+
+.addd article div {
     padding: 10px;
 }
-#r{
-  font-size: 22px;  
+
+#r {
+    font-size: 22px;
 }
+
 @media (max-width:769px) {
-    .log{
+    .log {
         display: block;
     }
-    .log2{
+
+    .log2 {
         padding: 40px;
         width: 600px;
         margin-top: 20px;
     }
 }
+
 @media (max-width:427px) {
-    .log2{
+    .log2 {
         width: 200px;
         height: 200px;
         display: block;
     }
-    .addd{
+
+    .addd {
         display: grid;
         grid-template-columns: auto auto;
     }
